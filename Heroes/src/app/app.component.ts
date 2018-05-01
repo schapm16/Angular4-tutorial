@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
 
@@ -63,7 +63,7 @@ import { HeroService } from './hero.service';
       border-radius: 4px 0 0 4px;
     }
   `],
-  providers: [HeroService];
+  providers: [HeroService],
 
 })
 
